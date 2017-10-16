@@ -305,6 +305,13 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
             wip: true
         },
         {
+            icao: 'kpit',
+            level: 'easy',
+            name: 'Pittsburgh International Airport',
+            premium: false,
+            wip: false
+        },
+        {
             icao: 'kpvd',
             level: 'easy',
             name: 'Theodore Francis Green Memorial State Airport',
