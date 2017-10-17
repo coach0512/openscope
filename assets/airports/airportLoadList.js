@@ -306,7 +306,7 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
         },
         {
             icao: 'kpit',
-            level: 'easy',
+            level: 'beginner',
             name: 'Pittsburgh International Airport',
             premium: false,
             wip: false
