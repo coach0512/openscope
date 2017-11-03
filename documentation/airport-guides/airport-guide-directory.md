@@ -12,6 +12,7 @@ In order to help you learn the details of each particular airspace, an "airport 
 - [KJAX - Jacksonville International Airport](kjax.md)
 - [KLAS - McCarran International Airport](klas.md)
 - [KPDX - Portland International Airport](kpdx.md)
+- [KPIT - Pittsburgh International Airport](kpit.md)
 - [KSDF - Louisville International Airport](ksdf.md)
 - [KSEA - Seattle–Tacoma International Airport](ksea.md)
 - [KSTL - St. Louis Lambert International Airport](kstl.md)
