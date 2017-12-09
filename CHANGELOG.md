@@ -13,7 +13,7 @@
 
 
 ### Enhancements & Refactors
-
+- Updates KBOS to AIRAC 1713 [#842](https://github.com/openscope/openscope/issues/842)
 
 
 
