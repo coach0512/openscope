@@ -13,7 +13,7 @@
 
 
 ### Enhancements & Refactors
-
+- Updates ENGM (Oslo Airport, Norway) [#796](https://github.com/openscope/openscope/issues/796)
 
 
 
