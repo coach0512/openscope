@@ -13,6 +13,7 @@
 
 
 ### Enhancements & Refactors
+- Updates KPDX to AIRAC 1801 [#851](https://github.com/openscope/openscope/issues/851)
 
 
 
