@@ -48,7 +48,7 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
     return [
         {
             icao: 'cyhz',
-            level: 'easy',
+            level: 'beginner',
             name: 'Halifax Stanfield International Airport',
             premium: false,
             wip: false
