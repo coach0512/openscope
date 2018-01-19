@@ -13,7 +13,7 @@
 
 
 ### Enhancements & Refactors
-
+- Customisation of callsign formats [#866](https://github.com/openscope/openscope/issues/866)
 
 
 
