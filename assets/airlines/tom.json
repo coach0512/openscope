@@ -3,8 +3,10 @@
     "name": "Thomson Airways",
     "callsign": {
         "name": "Tomson",
-        "length": 3,
-        "alpha": true
+        "callsignFormats": [
+            "##AA",
+            "###"
+        ]
     },
     "fleets": {
         "long": [

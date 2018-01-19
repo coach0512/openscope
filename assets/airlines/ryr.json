@@ -3,7 +3,12 @@
     "name": "Ryanair",
     "callsign": {
         "name": "Ryanair",
-        "length": 3
+        "callsignFormats": [
+            "##AA",
+            "###A",
+            "####",
+            "##A"
+        ]
     },
     "fleets": {
         "default": [
