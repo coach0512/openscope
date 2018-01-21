@@ -13,7 +13,8 @@
 
 
 ### Enhancements & Refactors
-
+- Refactors `StipView` classes to not use `$.show()` and `$.hide()` [#837](https://github.com/openscope/openscope/issues/837)
+    - updates css to use `flexbox` instead of the clever `translateY()` tricks.
 
 
 
