@@ -645,17 +645,23 @@ export default class AircraftCommander {
         let taxiDestination = data[0];
         const isDeparture = aircraft.category === FLIGHT_CATEGORY.DEPARTURE;
         const flightPhase = aircraft.flightPhase;
+        const airport = AirportController.airport_get();
 
         // Set the runway to taxi to
         if (!taxiDestination) {
-            const airport = AirportController.airport_get();
             taxiDestination = airport.departureRunwayModel.name;
         }
 
-        const runway = AirportController.airport_get().getRunway(taxiDestination.toUpperCase());
+        const runway = airport.getRunway(taxiDestination.toUpperCase());
 
         if (!runway) {
             return [false, `no runway ${taxiDestination.toUpperCase()}`];
+        }
+
+        // If the aircraft is being re-assigned a runway, we need to remove it from the prior queue
+        if (flightPhase === FLIGHT_PHASE.TAXI) {
+            aircraft.fms.departureRunwayModel.removeAircraftFromQueue(aircraft);
+            aircraft.fms.departureRunwayModel = null;
         }
 
         const readback = aircraft.pilot.taxiToRunway(runway, isDeparture, flightPhase);
