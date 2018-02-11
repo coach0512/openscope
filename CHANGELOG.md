@@ -19,6 +19,7 @@
 
 
 ### Enhancements & Refactors
+- Add contribution guidelines document [#723](https://github.com/openscope/openscope/issues/723)
 
 
 
