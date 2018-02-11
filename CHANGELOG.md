@@ -19,7 +19,6 @@
 
 
 ### Enhancements & Refactors
-- Rework CYOW to work with the major FMS overhaul [#877](https://github.com/openscope/openscope/issues/877)
 
 
 
