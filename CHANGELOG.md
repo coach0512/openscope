@@ -13,7 +13,7 @@
 
 
 ### Enhancements & Refactors
-- Updates KSTL to AIRAC 1801 [#844](https://github.com/openscope/openscope/issues/844)
+- Updates KSTL to AIRAC 1802 [#844](https://github.com/openscope/openscope/issues/844)
 
 
 
