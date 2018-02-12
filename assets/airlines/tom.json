@@ -1,8 +1,8 @@
 {
     "icao": "tom",
-    "name": "Thomson Airways",
+    "name": "TUI Airways",
     "callsign": {
-        "name": "Tomson",
+        "name": "Tuiair",
         "callsignFormats": [
             "##AA",
             "###"
@@ -12,16 +12,17 @@
         "long": [
             ["B752", 14],
             ["B788", 9],
-            ["B763", 3]
+            ["B763", 4]
         ],
         "short": [
-            ["B738", 31]
+            ["B738", 33]
         ],
         "default": [
-            ["B738", 31],
+            ["B738", 33],
             ["B752", 14],
+            ["B763", 4],
             ["B788", 9],
-            ["B763", 3]
+            ["B789", 2]
         ]
     }
 }
